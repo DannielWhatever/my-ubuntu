@@ -1,7 +1,7 @@
 
 # Vars
 
- thisdir="~/ubuntu-desktop"
+ thisdir="~/my-ubuntu"
 
 # Aliases
 
