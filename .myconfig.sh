@@ -2,6 +2,11 @@
 # Vars
 
  thisdir="~/my-ubuntu"
+ 
+ # colors
+ cRestore="\e[39;48;5;0m"
+ cBlue="\e[34;48;5;82m"
+ cRed="\e[31;48;5;12m"
 
 # Aliases
 
@@ -19,8 +24,12 @@
 
 
 
+# Edit Path
+
+export PATH=$PATH:~/.local/bin
+
 # be nice, Say Hi!
-echo "\n\e[34mHi\e[39m DaniWiii \e[31m<3 \e[39m \n"
+echo "\n${cBlue}Hi${cRestore} DaniWiii ${cRed}<3 ${cRestore} \n"
 apt-get moo
 echo ""
 
