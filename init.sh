@@ -2,8 +2,7 @@
 apt update
 
 # install vim , curl, git, zsh
-apt install -y vim curl git zsh
-
+apt install -y vim curl git zsh powerline fonts-powerline
 
 # config git
 git config --global user.email arenita@yingo.cl
@@ -19,4 +18,7 @@ python3 get-pip.py --user
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-
+# test
+chsh -s /bin/zsh
+cd ~/.oh-my-zsh
+upgrade_oh_my_zsh

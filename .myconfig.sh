@@ -4,9 +4,9 @@
  thisdir="~/my-ubuntu"
  
  # colors
- cRestore="\e[39;48;5;0m"
  cBlue="\e[34;48;5;82m"
  cRed="\e[31;48;5;12m"
+ cReset="\e[0m"
 
 # Aliases
 
@@ -29,7 +29,7 @@
 export PATH=$PATH:~/.local/bin
 
 # be nice, Say Hi!
-echo "\n${cBlue}Hi${cRestore} DaniWiii ${cRed}<3 ${cRestore} \n"
+echo "\n${cBlue}Hi${cReset} DaniWiii ${cRed}<3 ${cReset} \n"
 apt-get moo
 echo ""
 
