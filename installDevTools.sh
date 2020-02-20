@@ -14,6 +14,10 @@ echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/
 # update repositories
 apt-get update
 
+# install nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+source ~/.bashrc && nvm install node
+
 # install docker, kubectl
 apt-get install -y docker-ce docker-ce-cli containerd.io kubectl
 

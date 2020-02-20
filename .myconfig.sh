@@ -22,6 +22,8 @@
  alias ññ="cd ~/code"
  alias casa="cd ~"
 
+ # $secret
+ source ${thisdir}/.secretconfig.sh
 
 
 # Edit Path
